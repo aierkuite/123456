@@ -55,7 +55,7 @@ typedef struct {
 } TLC5615_WaveformConfigTypeDef;
 
 TLC5615_StatusTypeDef TLC5615_GenerateWaveform(TLC5615_HandleTypeDef* htlc5615, TLC5615_WaveformConfigTypeDef* config);
-const uint16_t sine_table[90];
-const uint16_t triangle_table[90];
-const uint16_t square_table[90];
+extern const uint16_t sine_table[90];
+extern const uint16_t triangle_table[90];
+extern const uint16_t square_table[90];
 #endif //TLC5615_H
